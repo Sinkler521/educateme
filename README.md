@@ -8,6 +8,17 @@ Front-end:
 Back-end:
 1) _Django (REST)_
 
+clone repository:
+create folder and open terminal.
+```
+git init
+git remote add origin "link of your repo fork (or use https://github.com/Sinkler521/educateme.git)"
+git pull origin master
+
+since backend and frontend folders should be submodules we have to init and update both:
+git submodule update --init --recursive
+```
+
 **Launch:**
 1) create .env files in frontend and backend folders.
 
