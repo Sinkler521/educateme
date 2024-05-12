@@ -18,6 +18,7 @@ git remote add origin "link of your repo fork (or use https://github.com/Sinkler
 git pull origin master
 
 since backend and frontend folders should be submodules we have to init and update both:
+
 git submodule update --init --recursive
 ```
 
@@ -35,12 +36,12 @@ REACT_APP_BACKEND_AUTH=${REACT_APP_BACKEND_HOST}auth
 REACT_APP_BACKEND_API=${REACT_APP_BACKEND_HOST}api
 
 # THESE ONES can be changed using recaptcha v2
-https://www.google.com/recaptcha/about/
+# https://www.google.com/recaptcha/about/
 REACT_APP_CAPTCHA_KEY=6LdsIJwpAAAAAJWPQM3kba8OFydXDXMryCQIOK8i
 REACT_APP_CAPTCHA_SECRET=6LdsIJwpAAAAALgAChivSeoREG74wVXq__V6V2vh
 
 # another one api key but for youtube
-https://developers.google.com/youtube/v3/getting-started?hl=ru
+# https://developers.google.com/youtube/v3/getting-started?hl=ru
 REACT_APP_YOUTUBE_API_KEY=AIzaSyBiiAS9i56Zy6FNQlSR2GXeLX_B94qcNZA
 ```
 backend .env (replace SMTP server data according to which one you'd like to use)
@@ -58,6 +59,8 @@ ADMIN_EMAIL=Sinkler521@gmail.com
 Open terminal from the root folder.
 
 Docker:
+
+_If you use Windows make sure you have Docker Desktop installed and launched_
 ```
 # Linux: use sudo to run these commands as superuser
 docker-compose build --no-cache
