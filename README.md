@@ -45,9 +45,9 @@ REACT_APP_CAPTCHA_SECRET=6LdsIJwpAAAAALgAChivSeoREG74wVXq__V6V2vh
 REACT_APP_YOUTUBE_API_KEY=AIzaSyBiiAS9i56Zy6FNQlSR2GXeLX_B94qcNZA
 ```
 backend .env (replace SMTP server data according to which one you'd like to use)
-```
 This example contains free service
 https://www.mailersend.com/
+```
 EMAIL_HOST=smtp.mailersend.net
 EMAIL_HOST_USER=MS_Aj00FX@trial-7dnvo4d35e3g5r86.mlsender.net
 EMAIL_HOST_PASSWORD=rXIq1dpYxIAfuXYW
